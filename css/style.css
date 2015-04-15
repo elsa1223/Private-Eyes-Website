@@ -34,11 +34,20 @@ body {
 	margin-right: auto;
 	max-width: initial;
 	z-index: 99;
+	max-height: 100%;
+}
+
+.header-text {
+	background-image: url(../img/transparent-d.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
 }
 
 #logo {
 	margin: 0.5em;
-	max-height: 6em;
+	max-height: 5.5em;
+	float: left;
 }
 
 .logo-div {
@@ -46,7 +55,7 @@ body {
 }
 
 .subheader {
-	font-size: 1.375rem;
+	font-size: 1.3rem;
 }
 
 #subtitle {
@@ -56,11 +65,6 @@ body {
 
 .body-top {
 	background-color: #fff;
-	padding-top: 6em;
-}
-
-.body-middle {
-	margin-top: 4em;
 }
 
 .footer {
@@ -89,6 +93,9 @@ li {
     	background-color: #2a416b; 
     	}
 	.header { position: fixed; }
+	.body-top { padding-top: 6em; }
+	.addresses { padding-left: 2.75em; }
+	.body-middle { margin-top: 3em; }
 }
 
 .transparent {
